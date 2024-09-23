@@ -288,3 +288,17 @@ li{
     background-color: transparent;
     color: black;
 }
+
+
+@media (min-width :1200px) {
+    html{
+        display: flex;
+    }
+}
+
+@media (min-width :600px) {
+    body{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
